@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18046528.svg)](https://doi.org/10.5281/zenodo.18046528)  
 📍 **Publicado:** Jan 2026 — Aracati, Brasil — SUP3RA DIGITAL™
 
-O SUP3RA VECTRA™ é um projeto de governança aberto e reprodutível. Valorizamos contribuições que variam de código e documentação a testes de estresse (Red Teaming) e revisões críticas.
+O SUP3RA-VECTRA-COGNITIVE-DECISION™ é um projeto de governança aberto e reprodutível. Valorizamos contribuições que variam de código e documentação a testes de estresse (Red Teaming) e revisões críticas.
 
 ---
 
