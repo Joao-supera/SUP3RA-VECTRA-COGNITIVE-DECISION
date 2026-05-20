@@ -1,4 +1,4 @@
-# 🛡️ SUP3RA-VECTRA-COGNITIVE-DECISION™ v2.6.0
+# 🛡️ SUP3RA-VECTRA-COGNITIVE-DECISION™ v2.6.0 
 **Dual-Layer Constitutional Governance for High-Responsibility AI**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18135699.svg)](https://doi.org/10.5281/zenodo.18135699)
