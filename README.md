@@ -1,38 +1,78 @@
-# 🛡️ SUP3RA-VECTRA-COGNITIVE-DECISION™ v2.6.0 
-**Dual-Layer Constitutional Governance for High-Responsibility AI**
+# 🛡️ SUP3RA-VECTRA-COGNITIVE-DECISION™ v2.6.1
+
+### Deterministic Constitutional Governance for High-Responsibility AI
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18135699.svg)](https://doi.org/10.5281/zenodo.18135699)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/Joao-supera)
 
 ---
 
-## Overview
-
-**SUP3RA VECTRA™** is a mechanistic AI safety and governance framework designed to wrap Large Language Models (LLMs) with a deterministic and auditable constitutional validation layer.
-
-It operates as a **Layer 2 constitutional validation engine**, evaluating prompts before generation and producing structured, traceable governance records.
+> *"Transforming ethical governance into auditable software infrastructure."*
 
 ---
 
-## 📦 Installation
+# 📖 Overview
 
-Local installation (after cloning the repository):
+SUP3RA VECTRA™ is a deterministic constitutional governance framework designed to wrap Large Language Models (LLMs) with an auditable ethical validation layer.
 
-```bash
+Rather than relying exclusively on probabilistic alignment strategies, the framework introduces a structured Layer 2 governance engine capable of:
+
+- Traversing constitutional clauses deterministically;
+- Detecting logical contradictions;
+- Interrupting unsafe execution paths;
+- Producing verifiable governance records;
+- Preserving transparency and traceability.
+
+The architecture was designed for:
+
+- Constitutional AI research;
+- AI governance infrastructure;
+- Auditable decision systems;
+- Ethical validation pipelines;
+- High-responsibility AI environments.
+
+---
+
+# 🚀 What's New in v2.6.1
+
+Version 2.6.1 focuses on stabilization, repository restructuring, and documentation improvements.
+
+## 🛠️ Improvements
+
+- Updated repository naming consistency;
+- Refined README architecture and navigation;
+- Improved GitHub and DOI integration;
+- Standardized governance terminology;
+- Enhanced onboarding structure for researchers and auditors.
+
+---
+
+## 📑 Documentation Enhancements
+
+- Expanded constitutional governance explanations;
+- Improved repository organization;
+- Updated installation references;
+- Improved public archival presentation.
+
+---
+
+## 🔒 Governance Stability
+
+- Maintained deterministic traversal engine;
+- Preserved SHA-256 governance records;
+- Continued support for Honest Halt Protocol (HHP);
+- Improved traceability descriptions.
+
+---
+
+# ⚡ Installation
+
+## Local installation
+
+```bash id="b4r2oq"
 pip install .
-```
-
-Install directly from GitHub:
-
-```bash
-pip install git+https://github.com/Joao-supera/sup3ra-vectra.git
-```
-
----
-
-## ⚡ Quickstart
-
-```python
+Install directly from GitHub
+pip install git+https://github.com/Joao-supera/SUP3RA-VECTRA-COGNITIVE-DECISION.git
+⚡ Quickstart
 from sup3ra_vectra import VectraEngineV2
 
 engine = VectraEngineV2()
@@ -43,126 +83,155 @@ result = engine.traverse(prompt)
 print(result.decision)
 print(result.message)
 print(engine.audit_record(result))
-```
+🧠 Core Architecture
 
----
+SUP3RA VECTRA™ is organized into four governance layers.
 
-## 🧩 Core Components
+Layer 1 — Constitutional Layer
 
-| Component | Description | Link |
-| :--- | :--- | :--- |
-| **📜 Agent Constitution** | Master system prompt defining the 8 ethical clauses and DOI reference. | [View Protocol ↗](AGENT_CONSTITUTION.md) |
-| **⚙️ Governance Engine** | Python engine implementing deterministic constitutional logic. | [View Code ↗](src/sup3ra_vectra/core.py) |
-| **🔬 Scientific Registry** | Official Zenodo DOI registration for citation and archival. | [DOI: 10.5281/zenodo.18135699](https://doi.org/10.5281/zenodo.18135699) |
-| **🚀 Hugging Face** | Model and playground environment for live testing. | [Access Hugging Face ↗](https://huggingface.co/Joao-supera) |
+Defines immutable ethical clauses governing system behavior.
 
----
+Core principles include:
 
-## 🚀 What's New in v2.6.0
+Non-simulated cognition;
+Transparency;
+Human autonomy preservation;
+Traceability;
+Controlled degradation;
+Deterministic interruption.
+Layer 2 — Traversal Engine
 
-- **Module VIII — Traceability:** Governance records with SHA-256 hashing for integrity verification.
-- **Paraconsistent Logic Routing:** Identification and handling of logical contradictions without hallucination induction.
-- **VECTRA™ Engine (Layer 2):** Preventive governance engine that validates intent before generation.
-- **CORE Protocol v2.0:** Full update to the 8 non-negotiable constitutional clauses.
-- **Honest Halt Protocol (HHP):** Safe interruption mechanism with auditable diagnostics.
+The governance engine evaluates prompts before generation.
 
----
+Responsibilities:
 
-## 🛠️ Repository Structure
+Constitutional clause traversal;
+Contradiction detection;
+Ethical routing;
+Prompt classification;
+Safe interruption decisions.
+Layer 3 — Auditability Layer
 
-- `/src/sup3ra_vectra/core.py` — Traversal engine and governance record generation.
-- `/AGENT_CONSTITUTION.md` — Master system prompt governing agent behavior.
-- `/docs/SPEC.md` — Detailed technical architecture specification.
-- `/benchmark.py` — Performance and jailbreak-resistance validation script.
+Responsible for structured governance records.
 
----
+Features:
 
-## ⚖️ License & Ethics
+SHA-256 integrity hashing;
+Decision traceability;
+Structured governance logs;
+Ethical clause attribution.
+Layer 4 — Validation & Benchmarking
 
-This project is distributed under the **MIT License**, accompanied by the **SUP3RA Ethical Use Addendum**, ensuring that software usage respects human autonomy and transparency principles.
+Stress-testing and adversarial validation framework.
 
----
+Benchmarks include:
 
-## 👤 Author & Contact
+Jailbreak resistance;
+Contradictory prompt handling;
+Hallucination suppression;
+Governance consistency;
+Ethical traversal integrity.
+🧩 Core Components
+Component	Description
+Agent Constitution	Defines the immutable constitutional clauses
+Governance Engine	Deterministic ethical traversal engine
+Honest Halt Protocol	Structured interruption mechanism
+Audit Layer	Governance logs and SHA-256 verification
+Benchmark Suite	Ethical validation and stress testing
+📂 Repository Structure
+SUP3RA-VECTRA-COGNITIVE-DECISION/
+│
+├── src/sup3ra_vectra/
+│   ├── core.py
+│   ├── traversal.py
+│   ├── governance.py
+│   ├── audit.py
+│   └── validators.py
+│
+├── docs/
+│   ├── SPEC.md
+│   ├── ARCHITECTURE.md
+│   ├── VALIDATION_REPORT.md
+│   └── ETHICAL_TRAVERSAL.md
+│
+├── validation/
+├── tests/
+├── benchmark.py
+├── START_HERE.md
+├── AGENT_CONSTITUTION.md
+└── README.md
+🔍 Governance Principles
 
-Developed by **João Henrique de Souza Batista**  
-**SUP3RA DIGITAL™** | Aracati, Ceará, Brazil 🇧🇷  
+The framework enforces:
 
-For inquiries, partnerships, or audits: `jh.gti2026@gmail.com`
+Deterministic constitutional traversal;
+Explicit transparency constraints;
+Logical contradiction handling;
+Ethical interruption protocols;
+Human oversight preservation;
+Auditable governance records.
+🛡️ Honest Halt Protocol (HHP)
 
----
+The Honest Halt Protocol prevents unsafe execution paths through deterministic interruption rules.
 
-<p align="center"><i>"Transforming ethical governance into auditable software infrastructure."</i></p>
+The protocol activates under:
 
----
+Illegal requests;
+Unsafe instructions;
+Logical impossibilities;
+Contradictory constitutional states;
+High-risk ambiguity scenarios.
 
+Each interruption produces:
 
-## Visão Geral
+Clause attribution;
+Structured reasoning;
+Governance diagnostics;
+Traceability metadata.
+📑 Scientific Registry
+DOI
+10.5281/zenodo.18135699
 
-O **SUP3RA VECTRA™** é um framework de segurança e governança de IA projetado para envolver Modelos de Linguagem (LLMs) com uma camada constitucional determinística e auditável.
+Zenodo:
 
-Ele opera como um **motor de validação constitucional Layer 2**, avaliando prompts antes da geração e produzindo registros estruturados e rastreáveis de governança.
+https://doi.org/10.5281/zenodo.18135699
+🤖 Hugging Face
 
----
+Model playground and experimentation environment:
 
-## 📦 Instalação
+https://huggingface.co/
+⚖️ License & Ethics
 
-Instalação local (após clonar o repositório):
+Distributed under the MIT License together with the SUP3RA Ethical Use Addendum.
 
-```bash
-pip install .
-```
+The framework was designed for:
 
-Instalação direta via GitHub:
+Governance research;
+AI safety engineering;
+Constitutional AI experimentation;
+Auditable infrastructure development.
+👨‍💻 Author
 
-```bash
-pip install git+https://github.com/Joao-supera/sup3ra-vectra.git
-```
+João Henrique de Souza Batista
+SUP3RA DIGITAL™
 
----
+Brazil
 
-## ⚡ Uso Rápido
+📬 Contact
 
-```python
-from sup3ra_vectra import VectraEngineV2
+Research, audits, and partnerships:
 
-engine = VectraEngineV2()
+jh.gti2026@gmail.com
+📌 Citation
+@software{batista2026vectra,
+  author       = {João Henrique de Souza Batista},
+  title        = {SUP3RA VECTRA: Deterministic Constitutional Governance for High-Responsibility AI},
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18135699}
+}
+🧭 Final Statement
 
-prompt = "Você possui emoções?"
-result = engine.traverse(prompt)
+SUP3RA VECTRA™ is not a persuasion-based alignment wrapper.
 
-print(result.decision)
-print(result.message)
-print(engine.audit_record(result))
-```
-
----
-
-## 🧩 Componentes Principais
-
-| Componente | Descrição | Link |
-| :--- | :--- | :--- |
-| **📜 Constituição do Agente** | System Prompt mestre com as 8 cláusulas éticas e DOI. | [Ver Protocolo ↗](AGENT_CONSTITUTION.md) |
-| **⚙️ Motor de Governança** | Motor Python que executa a lógica constitucional determinística. | [Ver Código ↗](src/sup3ra_vectra/core.py) |
-| **🔬 Registro Científico** | Registro oficial no Zenodo (DOI) para citação e arquivamento. | [DOI: 10.5281/zenodo.18135699](https://doi.org/10.5281/zenodo.18135699) |
-| **🚀 Hugging Face** | Modelo e ambiente de testes. | [Acessar ↗](https://huggingface.co/Joao-supera) |
-
----
-
-## 🚀 Novidades da v2.6.0
-
-- **Módulo VIII — Rastreabilidade:** Registros com hash SHA-256 para verificação de integridade.
-- **Roteamento Paraconsistente:** Identificação e tratamento de contradições lógicas.
-- **VECTRA™ Engine (Layer 2):** Validação preventiva de intenção antes da geração.
-- **Protocolo CORE v2.0:** Atualização integral das 8 cláusulas constitucionais.
-- **Honest Halt Protocol (HHP):** Protocolo de interrupção segura com diagnóstico auditável.
-
----
-
-## ⚖️ Licença e Ética
-
-Distribuído sob a **MIT License**, acompanhado do **SUP3RA Ethical Use Addendum**, garantindo respeito à autonomia humana e à transparência.
-
----
-
-<p align="center"><i>"Transformando governança ética em infraestrutura de software auditável."</i></p>
+It is a deterministic constitutional governance infrastructure designed for auditable AI systems operating under explicit ethical constraints.
